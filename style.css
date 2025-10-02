@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+header { background:#ff4d4d; color:white; padding:20px; text-align:center; }
+nav { background:#333; padding:10px; text-align:center; }
+nav a { color:white; margin:10px; text-decoration:none; }
+section { padding:20px; }
+footer { background:#222; color:white; text-align:center; padding:10px; }
+.hero { background:#f2f2f2; padding:30px; text-align:center; }
+.features ul { list-style-type: square; margin-left: 20px; }
+@media(max-width:600px){
+  nav a { display:block; margin:5px 0; }
+}
